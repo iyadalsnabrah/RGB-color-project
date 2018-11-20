@@ -1,0 +1,28 @@
+body{
+   height: 90vh ;
+   min-width: 250px;
+   background-color: rgb(0, 0, 0);
+}
+h1{ 
+    font-size: 5vw;
+    text-transform: uppercase;
+    font-family: fantasy,sans-serif;
+    
+}
+div{
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border: 5px solid ;
+    box-shadow: 5px 5px 5px;
+}
+@media (max-width:500px){
+    h1{
+        font-size: 7vw;
+    }
+}
